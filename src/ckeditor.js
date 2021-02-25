@@ -37,6 +37,15 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import Table from '@ckeditor/ckeditor5-table/src/table.js';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
+import HeadingButtonsUI from '@ckeditor/ckeditor5-heading/src/headingbuttonsui';
+import ParagraphButtonUI from '@ckeditor/ckeditor5-paragraph/src/paragraphbuttonui';
+import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
+import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
+import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
+import Autosave from '@ckeditor/ckeditor5-autosave/src/autosave';
+import BalloonToolbar from '@ckeditor/ckeditor5-ui/src/toolbar/balloon/balloontoolbar';
+import BlockToolbar from '@ckeditor/ckeditor5-ui/src/toolbar/block/blocktoolbar';
+
 
 class Editor extends ClassicEditor {}
 
@@ -76,7 +85,16 @@ Editor.builtinPlugins = [
 	Table,
 	TableToolbar,
 	TextTransformation,
-	Link
+	Link,
+	ParagraphButtonUI,
+	HeadingButtonsUI,
+	UploadAdapter,
+	EasyImage,
+	Alignment,
+	Autosave,
+	BalloonToolbar,
+	BlockToolbar
+
 ];
 
 export default Editor;

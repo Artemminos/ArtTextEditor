@@ -6,6 +6,7 @@
   "devDependencies": {
     "@ckeditor/ckeditor5-adapter-ckfinder": "^25.0.0",
     "@ckeditor/ckeditor5-autoformat": "^25.0.0",
+    "@ckeditor/ckeditor5-autosave": "^25.0.0",
     "@ckeditor/ckeditor5-basic-styles": "^25.0.0",
     "@ckeditor/ckeditor5-block-quote": "^25.0.0",
     "@ckeditor/ckeditor5-ckfinder": "^25.0.0",
@@ -29,6 +30,7 @@
     "@ckeditor/ckeditor5-table": "^25.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^25.0.0",
     "@ckeditor/ckeditor5-typing": "^25.0.0",
+    "@ckeditor/ckeditor5-ui": "^25.0.0",
     "css-loader": "^5.0.1",
     "postcss": "^8.2.4",
     "postcss-loader": "^4.2.0",
